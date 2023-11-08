@@ -21,7 +21,7 @@ def load_model(model_name):
     return model
 
 # Função para carregar os rótulos
-def load_labels(path):
+def load_labels(tensorflow):
     with open(path, 'r') as f:
         return {i: line.strip() for i, line in enumerate(f.readlines())}
 
