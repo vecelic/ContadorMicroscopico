@@ -1,0 +1,14 @@
+item {
+  id: 1
+  name: 'cromossomo'
+}
+
+item {
+  id: 2
+  name: 'polen-viavel'
+}
+
+item {
+  id: 3
+  name: 'polen-inviavel'
+}
